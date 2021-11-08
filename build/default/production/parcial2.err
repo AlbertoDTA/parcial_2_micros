@@ -1,0 +1,14 @@
+Message[302] C:\USERS\ALBER\ONEDRIVE\ESCRITORIO\MPLAB\PARCIAL_2.X\PARCIAL2.ASM 43 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\ALBER\ONEDRIVE\ESCRITORIO\MPLAB\PARCIAL_2.X\PARCIAL2.ASM 44 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\ALBER\ONEDRIVE\ESCRITORIO\MPLAB\PARCIAL_2.X\PARCIAL2.ASM 46 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\ALBER\ONEDRIVE\ESCRITORIO\MPLAB\PARCIAL_2.X\PARCIAL2.ASM 47 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\ALBER\ONEDRIVE\ESCRITORIO\MPLAB\PARCIAL_2.X\PARCIAL2.ASM 48 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\ALBER\ONEDRIVE\ESCRITORIO\MPLAB\PARCIAL_2.X\PARCIAL2.ASM 49 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\ALBER\ONEDRIVE\ESCRITORIO\MPLAB\PARCIAL_2.X\PARCIAL2.ASM 50 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\ALBER\ONEDRIVE\ESCRITORIO\MPLAB\PARCIAL_2.X\PARCIAL2.ASM 52 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\ALBER\ONEDRIVE\ESCRITORIO\MPLAB\PARCIAL_2.X\PARCIAL2.ASM 54 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[207] C:\USERS\ALBER\ONEDRIVE\ESCRITORIO\MPLAB\PARCIAL_2.X\PARCIAL2.ASM 941 : Found label after column 1. (PERMITIDO2)
+Warning[207] C:\USERS\ALBER\ONEDRIVE\ESCRITORIO\MPLAB\PARCIAL_2.X\PARCIAL2.ASM 1045 : Found label after column 1. (DENEGADO1)
+Message[305] C:\USERS\ALBER\ONEDRIVE\ESCRITORIO\MPLAB\PARCIAL_2.X\PARCIAL2.ASM 1179 : Using default destination of 1 (file).
+Message[305] C:\USERS\ALBER\ONEDRIVE\ESCRITORIO\MPLAB\PARCIAL_2.X\PARCIAL2.ASM 1181 : Using default destination of 1 (file).
+Warning[207] C:\USERS\ALBER\ONEDRIVE\ESCRITORIO\MPLAB\PARCIAL_2.X\PARCIAL2.ASM 1239 : Found label after column 1. (dynamo)

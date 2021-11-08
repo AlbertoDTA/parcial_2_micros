@@ -1,0 +1,178 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Wed Nov 03 21:04:46 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                 RES_VECT       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                MAIN_PROG       code   0x000003    program   0x0006d8
+.config_2007_BUILD/DEFAULT/PRODUCTION/PARCIAL       code   0x002007    program   0x000002
+.config_2008_BUILD/DEFAULT/PRODUCTION/PARCIAL       code   0x002008    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00036e      
+                            0x002007    0x002008      
+            881 out of 8455 program addresses used, program memory utilization is 10%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      AST   0x00022f    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                    CINCO   0x0001e8    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                    CLAVE   0x000110    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                     COMP   0x00025e    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                   CUATRO   0x0001de    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                  DELAY5S   0x000351    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                 DENEGADO   0x0002d0    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                DENEGADO1   0x0002d1    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                      DOS   0x0001ca    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                    ENTRY   0x00013a    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                  ERRONEO   0x000230    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                     FLEX   0x000048    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                     GATO   0x000223    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                 GUARDADO   0x000164    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                   INICIO   0x000046    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                  INITLCD   0x00002f    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                   LCDPOS   0x000326    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                    NUEVE   0x000210    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                     OCHO   0x000206    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                  OCULTAR   0x0000f1    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                      OPC   0x00025a    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                PANTALLA1   0x00004b    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                 PASSWORD   0x0000ce    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                PERMITIDO   0x000288    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+               PERMITIDO2   0x000289    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                     POS1   0x00012a    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                     POS2   0x000132    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                     SCAN   0x00018e    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                     SEIS   0x0001f2    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                    SIETE   0x0001fc    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                    START   0x000003    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                     TRES   0x0001d4    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                      UNO   0x0001c0    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                     ZERO   0x00021a    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_013A   0x00013d    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_013F   0x000142    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_0144   0x000147    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_0149   0x00014c    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_014E   0x000151    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_0153   0x000156    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_0158   0x00015b    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_015D   0x000160    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_0164   0x000167    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_0169   0x00016c    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_016E   0x000171    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_0173   0x000176    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_0178   0x00017b    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_017D   0x000180    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_0182   0x000185    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_0187   0x00018a    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_01C4   0x0001c7    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_01CE   0x0001d1    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_01D8   0x0001db    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_01E2   0x0001e5    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_01EC   0x0001ef    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_01F6   0x0001f9    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_0200   0x000203    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_020A   0x00020d    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_0214   0x000217    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_021E   0x000221    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_0336   0x000339    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                    ciclo   0x000336    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                    clear   0x00033d    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                   dynamo   0x000364    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                     exec   0x00032e    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                     hide   0x000256    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                    iloop   0x000357    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                    jloop   0x00035a    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                    kloop   0x00035d    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                    mloop   0x000353    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                    reset   0x000250    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                     time   0x000333    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    START   0x000003    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                  INITLCD   0x00002f    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                   INICIO   0x000046    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                     FLEX   0x000048    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                PANTALLA1   0x00004b    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                 PASSWORD   0x0000ce    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                  OCULTAR   0x0000f1    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                    CLAVE   0x000110    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                     POS1   0x00012a    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                     POS2   0x000132    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                    ENTRY   0x00013a    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_013A   0x00013d    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_013F   0x000142    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_0144   0x000147    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_0149   0x00014c    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_014E   0x000151    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_0153   0x000156    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_0158   0x00015b    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_015D   0x000160    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                 GUARDADO   0x000164    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_0164   0x000167    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_0169   0x00016c    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_016E   0x000171    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_0173   0x000176    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_0178   0x00017b    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_017D   0x000180    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_0182   0x000185    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_0187   0x00018a    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                     SCAN   0x00018e    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                      UNO   0x0001c0    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_01C4   0x0001c7    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                      DOS   0x0001ca    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_01CE   0x0001d1    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                     TRES   0x0001d4    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_01D8   0x0001db    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                   CUATRO   0x0001de    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_01E2   0x0001e5    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                    CINCO   0x0001e8    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_01EC   0x0001ef    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                     SEIS   0x0001f2    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_01F6   0x0001f9    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                    SIETE   0x0001fc    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_0200   0x000203    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                     OCHO   0x000206    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_020A   0x00020d    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                    NUEVE   0x000210    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_0214   0x000217    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                     ZERO   0x00021a    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_021E   0x000221    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                     GATO   0x000223    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                      AST   0x00022f    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                  ERRONEO   0x000230    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                    reset   0x000250    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                     hide   0x000256    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                      OPC   0x00025a    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                     COMP   0x00025e    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                PERMITIDO   0x000288    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+               PERMITIDO2   0x000289    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                 DENEGADO   0x0002d0    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                DENEGADO1   0x0002d1    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                   LCDPOS   0x000326    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                     exec   0x00032e    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                     time   0x000333    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                    ciclo   0x000336    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+          _MAIN_PROG_0336   0x000339    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                    clear   0x00033d    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                  DELAY5S   0x000351    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                    mloop   0x000353    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                    iloop   0x000357    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                    jloop   0x00035a    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                    kloop   0x00035d    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+                   dynamo   0x000364    program     static C:\Users\alber\OneDrive\Escritorio\MPLAB\PARCIAL_2.X\parcial2.asm
+
+
